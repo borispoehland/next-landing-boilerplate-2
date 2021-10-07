@@ -5,7 +5,7 @@ import IndexSections from '../components/IndexSections/IndexSections';
 export default function Home() {
   return (
     <>
-      <NextSeo title="Landing page demo" description="" />
+      <NextSeo title="BP Landing Page" description="" />
       <Navbar />
       <IndexSections />
     </>
