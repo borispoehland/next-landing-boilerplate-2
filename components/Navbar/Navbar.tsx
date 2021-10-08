@@ -4,7 +4,7 @@ import { RiMenu3Line } from 'react-icons/ri';
 import Image from 'next/image';
 import { IconType } from 'react-icons';
 import getNavItems from '../../data/navItems';
-import ToNavItemConverter from './converters/ToNavItemConverter';
+import ToNavItemConverter from './ToNavItemConverter';
 import cx from 'classnames';
 import { navAndFooterClassNames } from '../../data/classNames';
 
@@ -24,6 +24,7 @@ const Navbar = (): JSX.Element => {
           <Image
             src="/img/logo.png"
             alt="Boris Pöhland Logo"
+            quality={100}
             layout="fill"
             objectFit="contain"
             objectPosition="left"
